@@ -21,6 +21,18 @@ require 'random_data'
    )
  end
  
+ puts "#{Post.count}"
+ Post.find_or_create_by(title: "Crimson Lance", body: "Group of Atlas")
+ puts "#{Post.count}"
+ 
+ puts "#{Post.count}"
+ Post.find_or_create_by(title: "Crimson Lance", body: "Enemy of Hyperion")
+ puts "#{Post.count}"
+ 
+ puts "#{Post.count}"
+ Post.find_or_create_by(title: "Crimson Lance", body: "Military arm of Altas")
+ puts "#{Post.count}"
+ 
  puts "Seed finished"
  puts "#{Post.count} posts created"
  puts "#{Comment.count} comments created"
