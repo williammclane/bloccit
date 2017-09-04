@@ -45,5 +45,6 @@ source 'https://rubygems.org'
    gem 'rspec-rails', '~> 3.0'
    gem 'rails-controller-testing'
    gem 'pry-rails', :group => :development
+   gem 'shoulda'
  end
  gem 'bootstrap-sass'
