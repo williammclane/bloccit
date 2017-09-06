@@ -48,3 +48,5 @@ source 'https://rubygems.org'
    gem 'shoulda'
  end
  gem 'bootstrap-sass'
+  # Used for encrypting passwords
+ gem 'bcrypt'
