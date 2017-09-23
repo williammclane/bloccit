@@ -46,6 +46,7 @@ source 'https://rubygems.org'
    gem 'rails-controller-testing'
    gem 'pry-rails', :group => :development
    gem 'shoulda'
+   gem 'factory_girl_rails', '~> 4.0'
  end
  gem 'bootstrap-sass'
   # Used for encrypting passwords
